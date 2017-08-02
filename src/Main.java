@@ -2,7 +2,7 @@
  * Created by cmitchell on 8/2/17.
  */
 //Creating a class named Main to print out Fibonacci (a sequence of numbers that adds the
-// current number and previous number to produce a new number)
+// current number and previous number to produce a new number) or (Each new value if the sum of the previous two sums)
 public class Main {
 
 //creating a method for the main class
