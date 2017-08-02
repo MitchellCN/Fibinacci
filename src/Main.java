@@ -11,10 +11,13 @@ public class Main {
 //creating the integer to count 20 instances of adding the previous number and the current number.
 
         int febCount= 20;
-
+//creating the new number
         int[] feb = new int[febCount];
+// including starting from 0
         feb[0]=0;
+// including 1  as the next starting point
         feb[1]=1;
+//  after including 0 and 1 starting at 2 and adding 1
         for (int i=2; i<febCount; i++){
             feb[i] = feb[i-1]+ feb[i-2];
 
